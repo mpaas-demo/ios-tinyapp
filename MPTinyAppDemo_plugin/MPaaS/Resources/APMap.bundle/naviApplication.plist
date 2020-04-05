@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>type</key>
+		<string>1</string>
+		<key>format</key>
+		<string>?sourceApplication=%@&amp;backScheme=alipays&amp;lat=%f&amp;lon=%f&amp;dev=0&amp;style=2</string>
+		<key>downurl</key>
+		<string>https://itunes.apple.com/app/id461703208?ls=1&amp;mt=8</string>
+		<key>scheme</key>
+		<string>iosAMapMpaas://navi</string>
+		<key>force</key>
+		<true/>
+		<key>name</key>
+		<string>高德地图</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>2</string>
+		<key>format</key>
+		<string>?saddr=%f,%f&amp;daddr=%f,%f&amp;directionsmode=driving</string>
+		<key>scheme</key>
+		<string>http://maps.apple.com/</string>
+		<key>force</key>
+		<false/>
+		<key>name</key>
+		<string>苹果地图</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>2</string>
+		<key>format</key>
+		<string>?saddr=%f,%f&amp;daddr=%f,%f&amp;directionsmode=driving</string>
+		<key>scheme</key>
+		<string>comgooglemaps://</string>
+		<key>force</key>
+		<false/>
+		<key>name</key>
+		<string> Google 地图</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>2</string>
+		<key>format</key>
+		<string>?origin=%f,%f&amp;destination=%f,%f&amp;mode=driving</string>
+		<key>scheme</key>
+		<string>baidumap://map/direction</string>
+		<key>force</key>
+		<false/>
+		<key>name</key>
+		<string>百度地图</string>
+	</dict>
+</array>
+</plist>

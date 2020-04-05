@@ -1,0 +1,42 @@
+//Written by 多语言翻译管理系统 
+//Thu Jan 28 2016 20:02:09 GMT+0800 (CST)
+//如有问题请联系去疾
+"APMap:APMap.locNotOpenHint" = "你可以在系統“設置-定位服務”中允許“支付寶”使用你的位置。";
+"APMap:APMap.route" = "路線";
+"APMap:APMapSendLocationView.dining" = "餐飲";
+"APMap:APMapService.requestFail" = "請求失敗";
+"APMap:APPathPlanningViewController.routeError" = "暫時無法獲取路徑";
+"APMap:APRouteDetailTitleBannerView.busPlan" = "公交方案";
+"APMap:取消" = "取消";
+"APMap:APMap.known" = "知道了";
+"APMap:APMap.navigateToLoc" = "導航到指定位置";
+"APMap:APMapSendLocationView.addressInfo" = "地名地址信息";
+"APMap:APMapSendLocationView.shopping" = "購物";
+"APMap:APPOISearchViewController.park" = "公園";
+"APMap:APPathRouteTableViewCell.startMyLoc" = "起點(我的位置)";
+"APMap:APRouteDetailTitleBannerView.walkPlan" = "步行方案";
+"APMap:重新定位" = "重新定位";
+"APMap:APMap.locNotOpen" = "定位未開啓";
+"APMap:APMap.navigateToLocOf" = "導航到%@的位置";
+"APMap:APMapSendLocationView.businessResidential" = "商務住宅";
+"APMap:APMapSendLocationView.touristSites" = "風景名勝";
+"APMap:APPathPlanningViewController.details" = "詳細信息";
+"APMap:APRouteDetailTitleBannerView.busCost" = "%1$0.0f分鍾/步行%2$d米/共%3$d站";
+"APMap:你可以开启WIFI以提高定位成功率；或尝试重新定位" = "你可以開啓WIFI以提高定位成功率；或嘗試重新定位";
+"APMap:APMap.location" = "位置";
+"APMap:APMap.showRoute" = "顯示路線";
+"APMap:APMapSendLocationView.government" = "政府機構";
+"APMap:APPOISearchViewController.mapSearch" = "地圖搜索";
+"APMap:APPathRouteDetailViewController.busStations" = "%1$@,從%2$@到%3$@,共%4$d站";
+"APMap:APRouteDetailTitleBannerView.drivePlan" = "駕車方案";
+"APMap:定位失败" = "定位失敗";
+"APMap:APPOISearchViewController.noResultAround" = "附近暫無您查找的網點";
+"APMap:APMapSendLocationView.accommodation" = "住宿";
+"APMap:APMap.myLocation" = "我的位置";
+"APMap:APMapSendLocationView.office" = "寫字樓";
+"APMap:APPathRouteTableViewCell.reachEnd&detail" = "到達終點 %@";
+"APMap:知道了" = "知道了";
+"APMap:APRouteDetailTitleBannerView.taxiCost" = "%1$0.0f分鍾/%2$d米/打車約%3$0.0f元";
+"APMap:步行路程过长，建议采用其他出行方式" = "步行路程過長，建議採用其他運輸工具";
+"APMap:暂时不支持跨城市公交查询哦" = "暫時不支援跨城市公車查詢哦";
+"APMap:路线规划失败，请稍后再试" = "路線規劃失敗，請稍後再試";

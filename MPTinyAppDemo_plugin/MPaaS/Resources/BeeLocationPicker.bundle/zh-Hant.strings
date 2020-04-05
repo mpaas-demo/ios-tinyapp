@@ -1,0 +1,16 @@
+//Written by 多语言翻译管理系统 
+//Tue Jul 05 2016 20:58:52 GMT+0800 (CST)
+//如有问题请联系去疾
+"BeeLocationPicker:不显示位置" = "不顯示位置";
+"BeeLocationPicker:你在哪里？" = "你在哪裡？";
+"BeeLocationPicker:取消" = "取消";
+"BeeLocationPicker:定位失败" = "定位失敗";
+"BeeLocationPicker:定位未开启" = "定位未開啟";
+"BeeLocationPicker:所在位置" = "所在位置";
+"BeeLocationPicker:搜索你现在的位置" = "搜索你現在的位置";
+"BeeLocationPicker:搜索附近位置" = "搜索附近位置";
+"BeeLocationPicker:无法获取你的位置信息。请到手机系统的[设置]->[隐私]->[定位服务]中打开定位服务，并允许支付宝使用定位服务" = "無法獲取你的位置信息。請到手機系統的[設置]->[隱私]->[定位服務]中打開定位服務，并允許支付寶使用定位服務";
+"BeeLocationPicker:无结果" = "無結果";
+"BeeLocationPicker:正在搜索附近的位置" = "正在搜索附近的位置";
+"BeeLocationPicker:确定" = "確定";
+"BeeLocationPicker:没有找到你的位置" = "沒有找到你的位置";

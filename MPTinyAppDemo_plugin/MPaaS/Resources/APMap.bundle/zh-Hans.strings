@@ -1,0 +1,43 @@
+//Written by 多语言翻译管理系统 
+//Thu Jan 28 2016 20:02:09 GMT+0800 (CST)
+//如有问题请联系去疾
+"APMap:知道了" = "知道了";
+"APMap:APMap.locNotOpenHint" = "你可以在系统“设置-定位服务”中允许使用你的位置。";
+"APMap:APMap.showRoute" = "显示路线";
+"APMap:APMapSendLocationView.government" = "政府机构";
+"APMap:APPathPlanningViewController.details" = "详细信息";
+"APMap:APPOISearchViewController.mapSearch" = "地图搜索";
+"APMap:APRouteDetailTitleBannerView.drivePlan" = "驾车方案";
+"APMap:你可以开启WIFI以提高定位成功率；或尝试重新定位" = "你可以开启WIFI以提高定位成功率；或尝试重新定位";
+"APMap:APMap.location" = "位置";
+"APMap:APMap.navigateToLocOf" = "导航到%@的位置";
+"APMap:APMapSendLocationView.businessResidential" = "商务住宅";
+"APMap:APMapSendLocationView.touristSites" = "风景名胜";
+"APMap:APPathRouteTableViewCell.reachEnd&detail" = "到达终点 %@";
+"APMap:APRouteDetailTitleBannerView.busCost" = "%1$0.0f分钟/步行%2$d米/共%3$d站";
+"APMap:取消" = "取消";
+"APMap:APMap.locNotOpen" = "定位未开启";
+"APMap:APMap.route" = "路线";
+"APMap:APMapSendLocationView.dining" = "餐饮";
+"APMap:APMapService.requestFail" = "请求失败";
+"APMap:APPathRouteTableViewCell.startMyLoc" = "起点(我的位置)";
+"APMap:APRouteDetailTitleBannerView.busPlan" = "公交方案";
+"APMap:重新定位" = "重新定位";
+"APMap:APMap.myLocation" = "我的位置";
+"APMap:APMapSendLocationView.accommodation" = "住宿";
+"APMap:APMapSendLocationView.office" = "写字楼";
+"APMap:APPathPlanningViewController.routeError" = "暂时无法获取路径";
+"APMap:APPOISearchViewController.noResultAround" = "附近暂无您查找的网点";
+"APMap:APRouteDetailTitleBannerView.taxiCost" = "%1$0.0f分钟/%2$d米/打车约%3$0.0f元";
+"APMap:APMap.known" = "知道了";
+"APMap:定位失败" = "定位失败";
+"APMap:APPOISearchViewController.park" = "公园";
+"APMap:APMap.navigateToLoc" = "导航到指定位置";
+"APMap:APMapSendLocationView.shopping" = "购物";
+"APMap:APMapSendLocationView.addressInfo" = "地名地址信息";
+"APMap:APPathRouteDetailViewController.busStations" = "%1$@,从%2$@到%3$@,共%4$d站";
+"APMap:APRouteDetailTitleBannerView.walkPlan" = "步行方案";
+"APMap:步行路程过长，建议采用其他出行方式" = "步行路程过长，建议采用其他出行方式";
+"APMap:暂时不支持跨城市公交查询哦" = "暂时不支持跨城市公交查询哦";
+"APMap:路线规划失败，请稍后再试" = "路线规划失败，请稍后再试";
+

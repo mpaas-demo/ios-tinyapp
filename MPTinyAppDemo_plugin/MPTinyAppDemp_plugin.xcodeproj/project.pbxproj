@@ -1,0 +1,902 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0012B669EC4110BE7FE18600 /* APMCDNImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81AD7A6D4590FC4144DFDE6E /* APMCDNImage.bundle */; };
+		02422915EA81851DCF57E9AD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03151446BF6394CE05B0AB05 /* SystemConfiguration.framework */; };
+		0394597ED2FABF94975C4151 /* AudioToolBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04E9BB293838C833261834E /* AudioToolBox.framework */; };
+		0F5D570FB30C49202DB46A6A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12F9811E097743DE9B4571D /* AudioToolbox.framework */; };
+		14A58ED019A42C85B3500ED2 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7A80EB55F3C89DB95095E7 /* Accelerate.framework */; };
+		14C9CCC25EC82E535BDFFCC4 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 71015827174C05D6FFAA886E /* TencentOpenApi_IOS_Bundle.bundle */; };
+		171DA25E0231F5871A686487 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF54626CEA6D1B2AA5551829 /* MediaPlayer.framework */; };
+		17200ADA994E669758EF3C69 /* MPShareKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0404866696E85C3470940263 /* MPShareKit.bundle */; };
+		1EC5E6BADDFB3699867B08F4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2618162D5BD5F2EE58C75D90 /* MapKit.framework */; };
+		1FFFBC2C64BCA2956AC6E935 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318D5A355123CA68A774B1DF /* ImageIO.framework */; };
+		20582710FE82DB605ED58A0C /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CE36FA81AA5FDF962C31AA /* CoreBluetooth.framework */; };
+		27690B18FC344A7B18E0EDEF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1F58A599B1A4ABA6294E96 /* MessageUI.framework */; };
+		278E17A4C119D3DF0DAF563F /* TinyappService.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 88887BC2DE37EDE4D1C8B7C6 /* TinyappService.bundle */; };
+		2B44AC37FD8ED5097E10EC30 /* APMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28C54B1885EB613EE385878D /* APMap.bundle */; };
+		2EDDB591EE0B4DA655E01689 /* AOMPDevice.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1610E566FAFF98CACFDC8F19 /* AOMPDevice.bundle */; };
+		335ACE6C51564F2DE709A299 /* NebulaSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1413479E3C82F07EB025DD5A /* NebulaSDK.bundle */; };
+		381E4A1369991EEA1FCA74D3 /* MPaaSInterface+MPTinyAppDemp_plugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 323FE1DCDE484334876867E2 /* MPaaSInterface+MPTinyAppDemp_plugin.m */; };
+		3BFCC77ED18DD53971FB61BD /* NebulaBiz.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4A19B4D6C2C3A97CF8FC1E6D /* NebulaBiz.bundle */; };
+		3FF13162FD5E846F8106224D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843CAFC6EF172EA7A701ED28 /* CoreTelephony.framework */; };
+		404CB32463A6D78829E756AB /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1356D23CF507EF6460C44F /* ContactsUI.framework */; };
+		40E0DB3F2956B215361DC681 /* BeePhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D7589EF87967561420998FA3 /* BeePhotoPicker.bundle */; };
+		44CEAC885ED649DA47FAE111 /* Texel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 55575815906827077F065030 /* Texel.bundle */; };
+		4554053EB1266D56A7C2A736 /* MPNebulaAdapter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0FFC962F2E9F49F5FAB89CD6 /* MPNebulaAdapter.bundle */; };
+		4837E67907E5E71C51775592 /* TinyAppCommon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D4B521D214A57C1F2C6B057F /* TinyAppCommon.bundle */; };
+		4A34FDB792AD0B0EB869DD28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4F8BC4B32ACA4656A0DE2E /* Foundation.framework */; };
+		4C05CB9BA15FBC4BED3E18FB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB9CD943F4F2956C81DF12E /* WebKit.framework */; };
+		5227BC117AF7DC96453C52DA /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA16F54B929F85797EB6E176 /* QuickLook.framework */; };
+		52C0867498F72F78F80B090B /* meta.config in Resources */ = {isa = PBXBuildFile; fileRef = ABB003D142A23A5172A99AF4 /* meta.config */; };
+		53F6865BAFFC5EFBEB0537BF /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0E256D8D7E3FBDC09231C8 /* NetworkExtension.framework */; };
+		5595BFFFE8EFFD3B087652BE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD14A6E61318F873A71296B /* MobileCoreServices.framework */; };
+		5F09B409E4C63F33B9E664E0 /* Webkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7909758A84BE989E1F461AB /* Webkit.framework */; };
+		5FB77B88409F2375617BF384 /* MicroAppEngine.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5015E21AA156619754E0823 /* MicroAppEngine.plist */; };
+		6407C4B346438EF5485A98F3 /* NebulaPoseidon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F54D8FE42C90F8D03101274 /* NebulaPoseidon.bundle */; };
+		644C96C007807BF8D8B17DB8 /* BeeCityPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 320EFBDF80F8FE4B95216445 /* BeeCityPicker.bundle */; };
+		65921D32CCE90A645EAD4CE5 /* BEEAudioUtil.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8BFA99A697034B5EBAE17BAA /* BEEAudioUtil.bundle */; };
+		6785E3B379BC33F0308648D8 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 94B3F0A83C411F8D0CF10404 /* WeiboSDK.bundle */; };
+		6D738D9917A255F70F30F190 /* TBScanSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B2AFB817044686A026919F1 /* TBScanSDK.bundle */; };
+		78D7E8BFA899DB8E45778752 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACB7FAF5D98B62CE2F0E56B /* AddressBook.framework */; };
+		80E0C79E208BC8A71148AA93 /* NebulaLogging.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC5A07208AF0C114447A0456 /* NebulaLogging.bundle */; };
+		86D6F421024DCC2754408C17 /* APMobileFramework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5803C1424CE207220BFA4EB5 /* APMobileFramework.bundle */; };
+		89019425DEBE5BC10944BE3A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87CCEDF33E554E72D05657A /* AssetsLibrary.framework */; };
+		8A10D74820231B8302DC79A4 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD03CEE3F768B15D6C8D924 /* VideoToolbox.framework */; };
+		8A4AA294E961F3F555EF5535 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E8771C0FFFAE87F91673E4CE /* AMap.bundle */; };
+		90EE9F988BF63417740BE361 /* DTFrameworkInterface+MPTinyAppDemp_plugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 658F447601E61477BF36CD6B /* DTFrameworkInterface+MPTinyAppDemp_plugin.m */; };
+		94B42744253992A16301E888 /* APMultimedia.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA2F480F2C05CCC5A8B9522E /* APMultimedia.bundle */; };
+		95E0E79247380D9096EAF42F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E43A4630149C90DB0BF117 /* CoreMotion.framework */; };
+		980DD6AE9F093A796C2F966B /* BeePhoto.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 55AB8C758B296C272F3F1D48 /* BeePhoto.bundle */; };
+		984C6141D35AF3FD7F19D710 /* TBDecodeSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 786D9CA58386AC4DF7E8BB66 /* TBDecodeSDK.bundle */; };
+		9892401ED920578FF1A1F767 /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DF06FA1E259C83C22CBC95A /* yw_1222.jpg */; };
+		9A50786AFC3EDEEBBACDA714 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6BABD0AE1B2709723611A5 /* AVFoundation.framework */; };
+		9DAF99389B7B2B11F5DA6F21 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897D2500559C7CC0C9583548 /* GLKit.framework */; };
+		9E1E52C98C074D37E3781B2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9930A91CD36EB36D8149386F /* UIKit.framework */; };
+		9F17E8796630E8122C2BCB99 /* MPInternalPlugins.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3BDF717E9ABB894C62A08EED /* MPInternalPlugins.bundle */; };
+		A2AC8D17F55968C2F4EAA36E /* APMUtils.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 61980121E8F4A73EAB2E4CBC /* APMUtils.bundle */; };
+		A95807D735FCC86AA7BBBB4E /* APRemoteLogging.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F4C7DCA3DECF8E17A309023 /* APRemoteLogging.bundle */; };
+		AA65EFC94D585FBB6B6F95D1 /* BeeLocationPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B4448A619340E183C947758 /* BeeLocationPicker.bundle */; };
+		AAE8A08184021CB16C126848 /* FalconLooks.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B1C02D18046EC1BC81DFE59 /* FalconLooks.bundle */; };
+		ABB8F2CA123524B5F2D0D421 /* NebulaSDKPlugins.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2838667A53092D0FEB2A36F5 /* NebulaSDKPlugins.bundle */; };
+		AC3DB888C77B51BC9372EB24 /* BeeCapture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 169D4C3CA37387A9CDDB885A /* BeeCapture.bundle */; };
+		AD7D8A787DC1151713CA6B24 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB5A6B35C8AD156B4F8AF1C /* EventKit.framework */; };
+		B3F7CB40AD98F2E4B0BE4682 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB371488EB2EC63DF1CC92C /* CoreAudio.framework */; };
+		B4386B4AC7837C32B8538238 /* NebulaKernel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01D532990FC6225E096B2D70 /* NebulaKernel.bundle */; };
+		B78F07CB7E230610FA994AA7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E662D0E3CC7B6079EEDD35B /* CoreMedia.framework */; };
+		B91C81B74146C54C8B60BBA6 /* MPBadgeService.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C15FB5553A89DA0C575ACB5F /* MPBadgeService.bundle */; };
+		BAAC8B920917ED6BEF9AED17 /* NebulaTinyapp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E63A226F1316A86930302DA /* NebulaTinyapp.bundle */; };
+		C279677FCCAB8E90B3FB39B4 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AD4CFC1AAAA47A22526465 /* UserNotifications.framework */; };
+		C683CCE5EA127F2F22045612 /* APMobileNetwork.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5DD4CD9D3A717C24C628394E /* APMobileNetwork.bundle */; };
+		C893AC67F96DC33D40EC0CB2 /* BeePhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44BC26751AC17EB33403D48B /* BeePhotoBrowser.bundle */; };
+		CD1356A5436A931478119AF6 /* APMImageProcessing.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C3AD5F64AD649B25543FD6A /* APMImageProcessing.bundle */; };
+		D626548323F2891300FD60FE /* MPJsApi4ShareTinyAppMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = D626548123F2891300FD60FE /* MPJsApi4ShareTinyAppMsg.m */; };
+		D626548423F2891300FD60FE /* MPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D626548223F2891300FD60FE /* MPUtils.m */; };
+		D626548823F28E0D00FD60FE /* MPJsApiHandler4CustomAPITest.m in Sources */ = {isa = PBXBuildFile; fileRef = D626548723F28E0D00FD60FE /* MPJsApiHandler4CustomAPITest.m */; };
+		D65F026823BF3A0C00E4574A /* FalconLooks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65F026723BF3A0C00E4574A /* FalconLooks.framework */; };
+		D65F026923BF3A0C00E4574A /* FalconLooks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D65F026723BF3A0C00E4574A /* FalconLooks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D6637C5222F9A7B800721E09 /* DemoHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6637C4122F9A7B700721E09 /* DemoHomeViewController.m */; };
+		D6637C5322F9A7B800721E09 /* MPCustomPluginsJsapis.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D6637C4322F9A7B700721E09 /* MPCustomPluginsJsapis.bundle */; };
+		D6637C5422F9A7B800721E09 /* MPCustomPresetApps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D6637C4422F9A7B700721E09 /* MPCustomPresetApps.bundle */; };
+		D6637C5522F9A7B800721E09 /* MPCustomPluginsJsapisDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = D6637C4522F9A7B700721E09 /* MPCustomPluginsJsapisDemo.m */; };
+		D6637C5622F9A7B800721E09 /* MPDemoTinyScanHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D6637C4A22F9A7B700721E09 /* MPDemoTinyScanHelper.m */; };
+		D6637C5722F9A7B800721E09 /* public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = D6637C4C22F9A7B700721E09 /* public_key.pem */; };
+		D6637C5822F9A7B800721E09 /* MPBootLoaderImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = D6637C4D22F9A7B700721E09 /* MPBootLoaderImpl.m */; };
+		D6637C5922F9A7B800721E09 /* DemoPlugin4SettingClick.m in Sources */ = {isa = PBXBuildFile; fileRef = D6637C4F22F9A7B700721E09 /* DemoPlugin4SettingClick.m */; };
+		D6637C5A22F9A7B800721E09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6637C5122F9A7B700721E09 /* AppDelegate.m */; };
+		D6A3010923F285A100C25911 /* MPH5Demo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D6A3010623F285A100C25911 /* MPH5Demo.bundle */; };
+		D9150552D89E0EAD3B655172 /* BeeMediaPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 43956BA0B41D14433BD681BF /* BeeMediaPlayer.bundle */; };
+		D92EDBA19C6EEC7A1F376A6F /* MPInternalPresetApps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13A9CBC672EB956DDC0D4330 /* MPInternalPresetApps.bundle */; };
+		DB6E865493411E2CAF039E5A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394F536753A5314ADE386129 /* CoreLocation.framework */; };
+		DE794865E809C88CF3D1CE8F /* NebulaConfig.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EEAF04B82D6C1614DDF0475D /* NebulaConfig.bundle */; };
+		E43E7C7321D1077E00D9E31A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43E7C7221D1077E00D9E31A /* Assets.xcassets */; };
+		E43E7C7621D1077E00D9E31A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43E7C7421D1077E00D9E31A /* LaunchScreen.storyboard */; };
+		E43E7C7921D1077E00D9E31A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E43E7C7821D1077E00D9E31A /* main.m */; };
+		E475DC9A2110C072F7178BC4 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11AE2493FD41C0C95AAB7F4 /* Contacts.framework */; };
+		E665E03CFC7B914AF0402309 /* APCommonUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 127EA22FB491F23AC46109D6 /* APCommonUI.bundle */; };
+		ED7A3B81D3572F6EC616C4CF /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B239EFEB2AE9A3381DB9CBF /* AddressBookUI.framework */; };
+		F14271EF83A35949F80B643F /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E464503E54AB870A445721 /* Photos.framework */; };
+		F153D2D70CDBE7ADF24CF658 /* APBusinessSchemeHandlers.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA75AF11728F9B4732E16B94 /* APBusinessSchemeHandlers.bundle */; };
+		F5B2301AE591FF225CFAF812 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C679C04673749EB88241A238 /* JavaScriptCore.framework */; };
+		F84CE7658B2B9C790F448D1D /* NebulaAppManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3418B7330F3BFE766BA7930C /* NebulaAppManager.bundle */; };
+		FDBB7EF7C03F64BF711AACD0 /* MobileRuntime.plist in Resources */ = {isa = PBXBuildFile; fileRef = 384EEF0C62926BB1C930B16F /* MobileRuntime.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D65F026A23BF3A0C00E4574A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D65F026923BF3A0C00E4574A /* FalconLooks.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01D532990FC6225E096B2D70 /* NebulaKernel.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NebulaKernel.bundle; sourceTree = "<group>"; };
+		03151446BF6394CE05B0AB05 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0404866696E85C3470940263 /* MPShareKit.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = MPShareKit.bundle; sourceTree = "<group>"; };
+		0C3AD5F64AD649B25543FD6A /* APMImageProcessing.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APMImageProcessing.bundle; sourceTree = "<group>"; };
+		0F54D8FE42C90F8D03101274 /* NebulaPoseidon.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NebulaPoseidon.bundle; sourceTree = "<group>"; };
+		0FFC962F2E9F49F5FAB89CD6 /* MPNebulaAdapter.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = MPNebulaAdapter.bundle; sourceTree = "<group>"; };
+		127EA22FB491F23AC46109D6 /* APCommonUI.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APCommonUI.bundle; sourceTree = "<group>"; };
+		13A9CBC672EB956DDC0D4330 /* MPInternalPresetApps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = MPInternalPresetApps.bundle; sourceTree = "<group>"; };
+		1413479E3C82F07EB025DD5A /* NebulaSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NebulaSDK.bundle; sourceTree = "<group>"; };
+		1610E566FAFF98CACFDC8F19 /* AOMPDevice.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AOMPDevice.bundle; sourceTree = "<group>"; };
+		169D4C3CA37387A9CDDB885A /* BeeCapture.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = BeeCapture.bundle; sourceTree = "<group>"; };
+		16E43A4630149C90DB0BF117 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1AA291946D2A8CFF768CDC92 /* mpaas_sdk.config */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = mpaas_sdk.config; sourceTree = "<group>"; };
+		2618162D5BD5F2EE58C75D90 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2838667A53092D0FEB2A36F5 /* NebulaSDKPlugins.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NebulaSDKPlugins.bundle; sourceTree = "<group>"; };
+		28C54B1885EB613EE385878D /* APMap.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APMap.bundle; sourceTree = "<group>"; };
+		318D5A355123CA68A774B1DF /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		320EFBDF80F8FE4B95216445 /* BeeCityPicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = BeeCityPicker.bundle; sourceTree = "<group>"; };
+		323FE1DCDE484334876867E2 /* MPaaSInterface+MPTinyAppDemp_plugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPaaSInterface+MPTinyAppDemp_plugin.m"; sourceTree = "<group>"; };
+		3418B7330F3BFE766BA7930C /* NebulaAppManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NebulaAppManager.bundle; sourceTree = "<group>"; };
+		384EEF0C62926BB1C930B16F /* MobileRuntime.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = MobileRuntime.plist; sourceTree = "<group>"; };
+		394F536753A5314ADE386129 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3B1C02D18046EC1BC81DFE59 /* FalconLooks.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = FalconLooks.bundle; sourceTree = "<group>"; };
+		3B4448A619340E183C947758 /* BeeLocationPicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = BeeLocationPicker.bundle; sourceTree = "<group>"; };
+		3BDF717E9ABB894C62A08EED /* MPInternalPlugins.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = MPInternalPlugins.bundle; sourceTree = "<group>"; };
+		3DF06FA1E259C83C22CBC95A /* yw_1222.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
+		40CE36FA81AA5FDF962C31AA /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		43956BA0B41D14433BD681BF /* BeeMediaPlayer.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = BeeMediaPlayer.bundle; sourceTree = "<group>"; };
+		44BC26751AC17EB33403D48B /* BeePhotoBrowser.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = BeePhotoBrowser.bundle; sourceTree = "<group>"; };
+		4A19B4D6C2C3A97CF8FC1E6D /* NebulaBiz.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NebulaBiz.bundle; sourceTree = "<group>"; };
+		4ACB7FAF5D98B62CE2F0E56B /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		55575815906827077F065030 /* Texel.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Texel.bundle; sourceTree = "<group>"; };
+		55AB8C758B296C272F3F1D48 /* BeePhoto.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = BeePhoto.bundle; sourceTree = "<group>"; };
+		5803C1424CE207220BFA4EB5 /* APMobileFramework.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APMobileFramework.bundle; sourceTree = "<group>"; };
+		5DD4CD9D3A717C24C628394E /* APMobileNetwork.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APMobileNetwork.bundle; sourceTree = "<group>"; };
+		5E63A226F1316A86930302DA /* NebulaTinyapp.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NebulaTinyapp.bundle; sourceTree = "<group>"; };
+		61980121E8F4A73EAB2E4CBC /* APMUtils.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APMUtils.bundle; sourceTree = "<group>"; };
+		658F447601E61477BF36CD6B /* DTFrameworkInterface+MPTinyAppDemp_plugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTFrameworkInterface+MPTinyAppDemp_plugin.m"; sourceTree = "<group>"; };
+		6AB371488EB2EC63DF1CC92C /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		6B6BABD0AE1B2709723611A5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6D24AE1728DA492F5C0FF311 /* MPaaSInterface+MPTinyAppDemp_plugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPaaSInterface+MPTinyAppDemp_plugin.h"; sourceTree = "<group>"; };
+		6D4F8BC4B32ACA4656A0DE2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		71015827174C05D6FFAA886E /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		786D9CA58386AC4DF7E8BB66 /* TBDecodeSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TBDecodeSDK.bundle; sourceTree = "<group>"; };
+		80E464503E54AB870A445721 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		81AD7A6D4590FC4144DFDE6E /* APMCDNImage.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APMCDNImage.bundle; sourceTree = "<group>"; };
+		843CAFC6EF172EA7A701ED28 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		88887BC2DE37EDE4D1C8B7C6 /* TinyappService.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TinyappService.bundle; sourceTree = "<group>"; };
+		897D2500559C7CC0C9583548 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		8AD14A6E61318F873A71296B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8B1F58A599B1A4ABA6294E96 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8B239EFEB2AE9A3381DB9CBF /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		8BFA99A697034B5EBAE17BAA /* BEEAudioUtil.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = BEEAudioUtil.bundle; sourceTree = "<group>"; };
+		8C7A80EB55F3C89DB95095E7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		8E662D0E3CC7B6079EEDD35B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8F4C7DCA3DECF8E17A309023 /* APRemoteLogging.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APRemoteLogging.bundle; sourceTree = "<group>"; };
+		92AD4CFC1AAAA47A22526465 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		94B3F0A83C411F8D0CF10404 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
+		9930A91CD36EB36D8149386F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B2AFB817044686A026919F1 /* TBScanSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TBScanSDK.bundle; sourceTree = "<group>"; };
+		9C1356D23CF507EF6460C44F /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		A04E9BB293838C833261834E /* AudioToolBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolBox.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/AudioToolBox.framework; sourceTree = SDKROOT; };
+		A11AE2493FD41C0C95AAB7F4 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		A12F9811E097743DE9B4571D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AA16F54B929F85797EB6E176 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		AAD03CEE3F768B15D6C8D924 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		ABB003D142A23A5172A99AF4 /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = meta.config; sourceTree = "<group>"; };
+		ACB9CD943F4F2956C81DF12E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B5015E21AA156619754E0823 /* MicroAppEngine.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = MicroAppEngine.plist; sourceTree = "<group>"; };
+		BEB5A6B35C8AD156B4F8AF1C /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		C15FB5553A89DA0C575ACB5F /* MPBadgeService.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = MPBadgeService.bundle; sourceTree = "<group>"; };
+		C679C04673749EB88241A238 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		C87CCEDF33E554E72D05657A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CA2F480F2C05CCC5A8B9522E /* APMultimedia.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APMultimedia.bundle; sourceTree = "<group>"; };
+		D4B521D214A57C1F2C6B057F /* TinyAppCommon.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TinyAppCommon.bundle; sourceTree = "<group>"; };
+		D626547F23F2891300FD60FE /* MPJsApi4ShareTinyAppMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPJsApi4ShareTinyAppMsg.h; sourceTree = "<group>"; };
+		D626548023F2891300FD60FE /* MPUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPUtils.h; sourceTree = "<group>"; };
+		D626548123F2891300FD60FE /* MPJsApi4ShareTinyAppMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPJsApi4ShareTinyAppMsg.m; sourceTree = "<group>"; };
+		D626548223F2891300FD60FE /* MPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPUtils.m; sourceTree = "<group>"; };
+		D626548623F28E0D00FD60FE /* MPJsApiHandler4CustomAPITest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPJsApiHandler4CustomAPITest.h; sourceTree = "<group>"; };
+		D626548723F28E0D00FD60FE /* MPJsApiHandler4CustomAPITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPJsApiHandler4CustomAPITest.m; sourceTree = "<group>"; };
+		D65F026723BF3A0C00E4574A /* FalconLooks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FalconLooks.framework; path = MPaaS/Frameworks/FalconLooks.framework; sourceTree = "<group>"; };
+		D6637C4122F9A7B700721E09 /* DemoHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoHomeViewController.m; sourceTree = "<group>"; };
+		D6637C4322F9A7B700721E09 /* MPCustomPluginsJsapis.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MPCustomPluginsJsapis.bundle; sourceTree = "<group>"; };
+		D6637C4422F9A7B700721E09 /* MPCustomPresetApps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MPCustomPresetApps.bundle; sourceTree = "<group>"; };
+		D6637C4522F9A7B700721E09 /* MPCustomPluginsJsapisDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPCustomPluginsJsapisDemo.m; sourceTree = "<group>"; };
+		D6637C4622F9A7B700721E09 /* MPCustomPluginsJsapisDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPCustomPluginsJsapisDemo.h; sourceTree = "<group>"; };
+		D6637C4722F9A7B700721E09 /* MPBootLoaderImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPBootLoaderImpl.h; sourceTree = "<group>"; };
+		D6637C4922F9A7B700721E09 /* MPDemoTinyScanHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPDemoTinyScanHelper.h; sourceTree = "<group>"; };
+		D6637C4A22F9A7B700721E09 /* MPDemoTinyScanHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPDemoTinyScanHelper.m; sourceTree = "<group>"; };
+		D6637C4B22F9A7B700721E09 /* DemoPlugin4SettingClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoPlugin4SettingClick.h; sourceTree = "<group>"; };
+		D6637C4C22F9A7B700721E09 /* public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = public_key.pem; sourceTree = "<group>"; };
+		D6637C4D22F9A7B700721E09 /* MPBootLoaderImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPBootLoaderImpl.m; sourceTree = "<group>"; };
+		D6637C4E22F9A7B700721E09 /* DemoHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoHomeViewController.h; sourceTree = "<group>"; };
+		D6637C4F22F9A7B700721E09 /* DemoPlugin4SettingClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoPlugin4SettingClick.m; sourceTree = "<group>"; };
+		D6637C5022F9A7B700721E09 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6637C5122F9A7B700721E09 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6A3010623F285A100C25911 /* MPH5Demo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MPH5Demo.bundle; sourceTree = "<group>"; };
+		D7589EF87967561420998FA3 /* BeePhotoPicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = BeePhotoPicker.bundle; sourceTree = "<group>"; };
+		D7909758A84BE989E1F461AB /* Webkit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Webkit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Webkit.framework; sourceTree = SDKROOT; };
+		DA32CE249108B0D3CAD20929 /* DTFrameworkInterface+MPTinyAppDemp_plugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTFrameworkInterface+MPTinyAppDemp_plugin.h"; sourceTree = "<group>"; };
+		E43E7C6621D1077E00D9E31A /* MPTinyAppDemp_plugin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPTinyAppDemp_plugin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43E7C7221D1077E00D9E31A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E43E7C7521D1077E00D9E31A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E43E7C7721D1077E00D9E31A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43E7C7821D1077E00D9E31A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E43E7C8221D1095B00D9E31A /* MPTinyAppDemp_plugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MPTinyAppDemp_plugin-Prefix.pch"; sourceTree = "<group>"; };
+		E43E7C8621D1446400D9E31A /* MPTinyAppDemp_plugin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MPTinyAppDemp_plugin.entitlements; sourceTree = "<group>"; };
+		E8771C0FFFAE87F91673E4CE /* AMap.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
+		EA5F7B698E2888F4CAE7AAD9 /* MPTinyAppDemp_plugin-mPaaS-Headers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPTinyAppDemp_plugin-mPaaS-Headers.h"; sourceTree = "<group>"; };
+		EC5A07208AF0C114447A0456 /* NebulaLogging.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NebulaLogging.bundle; sourceTree = "<group>"; };
+		EEAF04B82D6C1614DDF0475D /* NebulaConfig.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NebulaConfig.bundle; sourceTree = "<group>"; };
+		EF54626CEA6D1B2AA5551829 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		FA75AF11728F9B4732E16B94 /* APBusinessSchemeHandlers.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APBusinessSchemeHandlers.bundle; sourceTree = "<group>"; };
+		FDD66F8292F49766C3C3A7C4 /* MPTinyAppDemp_plugin-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MPTinyAppDemp_plugin-Prefix.pch"; path = "../../../MPTinyAppDemp_plugin/MPTinyAppDemp_plugin-Prefix.pch"; sourceTree = "<group>"; };
+		FF0E256D8D7E3FBDC09231C8 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E43E7C6321D1077E00D9E31A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65F026823BF3A0C00E4574A /* FalconLooks.framework in Frameworks */,
+				02422915EA81851DCF57E9AD /* SystemConfiguration.framework in Frameworks */,
+				3FF13162FD5E846F8106224D /* CoreTelephony.framework in Frameworks */,
+				5F09B409E4C63F33B9E664E0 /* Webkit.framework in Frameworks */,
+				95E0E79247380D9096EAF42F /* CoreMotion.framework in Frameworks */,
+				4C05CB9BA15FBC4BED3E18FB /* WebKit.framework in Frameworks */,
+				27690B18FC344A7B18E0EDEF /* MessageUI.framework in Frameworks */,
+				9A50786AFC3EDEEBBACDA714 /* AVFoundation.framework in Frameworks */,
+				89019425DEBE5BC10944BE3A /* AssetsLibrary.framework in Frameworks */,
+				B78F07CB7E230610FA994AA7 /* CoreMedia.framework in Frameworks */,
+				0F5D570FB30C49202DB46A6A /* AudioToolbox.framework in Frameworks */,
+				1FFFBC2C64BCA2956AC6E935 /* ImageIO.framework in Frameworks */,
+				DB6E865493411E2CAF039E5A /* CoreLocation.framework in Frameworks */,
+				14A58ED019A42C85B3500ED2 /* Accelerate.framework in Frameworks */,
+				9DAF99389B7B2B11F5DA6F21 /* GLKit.framework in Frameworks */,
+				C279677FCCAB8E90B3FB39B4 /* UserNotifications.framework in Frameworks */,
+				1EC5E6BADDFB3699867B08F4 /* MapKit.framework in Frameworks */,
+				5595BFFFE8EFFD3B087652BE /* MobileCoreServices.framework in Frameworks */,
+				0394597ED2FABF94975C4151 /* AudioToolBox.framework in Frameworks */,
+				9E1E52C98C074D37E3781B2A /* UIKit.framework in Frameworks */,
+				4A34FDB792AD0B0EB869DD28 /* Foundation.framework in Frameworks */,
+				8A10D74820231B8302DC79A4 /* VideoToolbox.framework in Frameworks */,
+				F14271EF83A35949F80B643F /* Photos.framework in Frameworks */,
+				B3F7CB40AD98F2E4B0BE4682 /* CoreAudio.framework in Frameworks */,
+				F5B2301AE591FF225CFAF812 /* JavaScriptCore.framework in Frameworks */,
+				171DA25E0231F5871A686487 /* MediaPlayer.framework in Frameworks */,
+				20582710FE82DB605ED58A0C /* CoreBluetooth.framework in Frameworks */,
+				5227BC117AF7DC96453C52DA /* QuickLook.framework in Frameworks */,
+				78D7E8BFA899DB8E45778752 /* AddressBook.framework in Frameworks */,
+				ED7A3B81D3572F6EC616C4CF /* AddressBookUI.framework in Frameworks */,
+				E475DC9A2110C072F7178BC4 /* Contacts.framework in Frameworks */,
+				404CB32463A6D78829E756AB /* ContactsUI.framework in Frameworks */,
+				53F6865BAFFC5EFBEB0537BF /* NetworkExtension.framework in Frameworks */,
+				AD7D8A787DC1151713CA6B24 /* EventKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E9E9EE7EFF67D5AED9D5925 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03151446BF6394CE05B0AB05 /* SystemConfiguration.framework */,
+				843CAFC6EF172EA7A701ED28 /* CoreTelephony.framework */,
+				D7909758A84BE989E1F461AB /* Webkit.framework */,
+				16E43A4630149C90DB0BF117 /* CoreMotion.framework */,
+				ACB9CD943F4F2956C81DF12E /* WebKit.framework */,
+				8B1F58A599B1A4ABA6294E96 /* MessageUI.framework */,
+				6B6BABD0AE1B2709723611A5 /* AVFoundation.framework */,
+				C87CCEDF33E554E72D05657A /* AssetsLibrary.framework */,
+				8E662D0E3CC7B6079EEDD35B /* CoreMedia.framework */,
+				A12F9811E097743DE9B4571D /* AudioToolbox.framework */,
+				318D5A355123CA68A774B1DF /* ImageIO.framework */,
+				394F536753A5314ADE386129 /* CoreLocation.framework */,
+				8C7A80EB55F3C89DB95095E7 /* Accelerate.framework */,
+				897D2500559C7CC0C9583548 /* GLKit.framework */,
+				92AD4CFC1AAAA47A22526465 /* UserNotifications.framework */,
+				2618162D5BD5F2EE58C75D90 /* MapKit.framework */,
+				8AD14A6E61318F873A71296B /* MobileCoreServices.framework */,
+				A04E9BB293838C833261834E /* AudioToolBox.framework */,
+				9930A91CD36EB36D8149386F /* UIKit.framework */,
+				6D4F8BC4B32ACA4656A0DE2E /* Foundation.framework */,
+				AAD03CEE3F768B15D6C8D924 /* VideoToolbox.framework */,
+				80E464503E54AB870A445721 /* Photos.framework */,
+				6AB371488EB2EC63DF1CC92C /* CoreAudio.framework */,
+				C679C04673749EB88241A238 /* JavaScriptCore.framework */,
+				EF54626CEA6D1B2AA5551829 /* MediaPlayer.framework */,
+				40CE36FA81AA5FDF962C31AA /* CoreBluetooth.framework */,
+				AA16F54B929F85797EB6E176 /* QuickLook.framework */,
+				4ACB7FAF5D98B62CE2F0E56B /* AddressBook.framework */,
+				8B239EFEB2AE9A3381DB9CBF /* AddressBookUI.framework */,
+				A11AE2493FD41C0C95AAB7F4 /* Contacts.framework */,
+				9C1356D23CF507EF6460C44F /* ContactsUI.framework */,
+				FF0E256D8D7E3FBDC09231C8 /* NetworkExtension.framework */,
+				BEB5A6B35C8AD156B4F8AF1C /* EventKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57EA6B5074B86B46043D2195 /* mPaas */ = {
+			isa = PBXGroup;
+			children = (
+				6D24AE1728DA492F5C0FF311 /* MPaaSInterface+MPTinyAppDemp_plugin.h */,
+				323FE1DCDE484334876867E2 /* MPaaSInterface+MPTinyAppDemp_plugin.m */,
+			);
+			path = mPaas;
+			sourceTree = "<group>";
+		};
+		5D022BF9B411974A3CAF061B /* MPaaS */ = {
+			isa = PBXGroup;
+			children = (
+				1AA291946D2A8CFF768CDC92 /* mpaas_sdk.config */,
+				A390A8709D2F5AA275B4EF89 /* Targets */,
+				FD4215463CFB19CDEEFC7198 /* Resources */,
+			);
+			path = MPaaS;
+			sourceTree = "<group>";
+		};
+		7BEA1FAE296C3342C4A41DFD /* APMobileFramework */ = {
+			isa = PBXGroup;
+			children = (
+				DA32CE249108B0D3CAD20929 /* DTFrameworkInterface+MPTinyAppDemp_plugin.h */,
+				658F447601E61477BF36CD6B /* DTFrameworkInterface+MPTinyAppDemp_plugin.m */,
+				B5015E21AA156619754E0823 /* MicroAppEngine.plist */,
+				384EEF0C62926BB1C930B16F /* MobileRuntime.plist */,
+			);
+			path = APMobileFramework;
+			sourceTree = "<group>";
+		};
+		A390A8709D2F5AA275B4EF89 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				CA370A36E07F227B22E66FB8 /* MPTinyAppDemp_plugin */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		CA370A36E07F227B22E66FB8 /* MPTinyAppDemp_plugin */ = {
+			isa = PBXGroup;
+			children = (
+				ABB003D142A23A5172A99AF4 /* meta.config */,
+				3DF06FA1E259C83C22CBC95A /* yw_1222.jpg */,
+				EA5F7B698E2888F4CAE7AAD9 /* MPTinyAppDemp_plugin-mPaaS-Headers.h */,
+				FDD66F8292F49766C3C3A7C4 /* MPTinyAppDemp_plugin-Prefix.pch */,
+				57EA6B5074B86B46043D2195 /* mPaas */,
+				7BEA1FAE296C3342C4A41DFD /* APMobileFramework */,
+			);
+			path = MPTinyAppDemp_plugin;
+			sourceTree = "<group>";
+		};
+		D626548523F28E0D00FD60FE /* TestCase */ = {
+			isa = PBXGroup;
+			children = (
+				D626548623F28E0D00FD60FE /* MPJsApiHandler4CustomAPITest.h */,
+				D626548723F28E0D00FD60FE /* MPJsApiHandler4CustomAPITest.m */,
+			);
+			path = TestCase;
+			sourceTree = "<group>";
+		};
+		D6637C4022F9A7B700721E09 /* Tinyapp */ = {
+			isa = PBXGroup;
+			children = (
+				D626548523F28E0D00FD60FE /* TestCase */,
+				D6637C4222F9A7B700721E09 /* TinyAppConfig */,
+				D6637C4822F9A7B700721E09 /* ScanHelper */,
+				D6637C4E22F9A7B700721E09 /* DemoHomeViewController.h */,
+				D6637C4122F9A7B700721E09 /* DemoHomeViewController.m */,
+				D6637C4722F9A7B700721E09 /* MPBootLoaderImpl.h */,
+				D6637C4D22F9A7B700721E09 /* MPBootLoaderImpl.m */,
+				D6637C4B22F9A7B700721E09 /* DemoPlugin4SettingClick.h */,
+				D6637C4F22F9A7B700721E09 /* DemoPlugin4SettingClick.m */,
+				D6637C4C22F9A7B700721E09 /* public_key.pem */,
+			);
+			path = Tinyapp;
+			sourceTree = "<group>";
+		};
+		D6637C4222F9A7B700721E09 /* TinyAppConfig */ = {
+			isa = PBXGroup;
+			children = (
+				D626547F23F2891300FD60FE /* MPJsApi4ShareTinyAppMsg.h */,
+				D626548123F2891300FD60FE /* MPJsApi4ShareTinyAppMsg.m */,
+				D626548023F2891300FD60FE /* MPUtils.h */,
+				D626548223F2891300FD60FE /* MPUtils.m */,
+				D6637C4322F9A7B700721E09 /* MPCustomPluginsJsapis.bundle */,
+				D6637C4622F9A7B700721E09 /* MPCustomPluginsJsapisDemo.h */,
+				D6637C4522F9A7B700721E09 /* MPCustomPluginsJsapisDemo.m */,
+				D6637C4422F9A7B700721E09 /* MPCustomPresetApps.bundle */,
+				D6A3010623F285A100C25911 /* MPH5Demo.bundle */,
+			);
+			path = TinyAppConfig;
+			sourceTree = "<group>";
+		};
+		D6637C4822F9A7B700721E09 /* ScanHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D6637C4922F9A7B700721E09 /* MPDemoTinyScanHelper.h */,
+				D6637C4A22F9A7B700721E09 /* MPDemoTinyScanHelper.m */,
+			);
+			path = ScanHelper;
+			sourceTree = "<group>";
+		};
+		E43E7C5D21D1077E00D9E31A = {
+			isa = PBXGroup;
+			children = (
+				D65F026723BF3A0C00E4574A /* FalconLooks.framework */,
+				E43E7C6821D1077E00D9E31A /* MPTinyAppDemp_plugin */,
+				E43E7C6721D1077E00D9E31A /* Products */,
+				4E9E9EE7EFF67D5AED9D5925 /* Frameworks */,
+				5D022BF9B411974A3CAF061B /* MPaaS */,
+			);
+			sourceTree = "<group>";
+		};
+		E43E7C6721D1077E00D9E31A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E43E7C6621D1077E00D9E31A /* MPTinyAppDemp_plugin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E43E7C6821D1077E00D9E31A /* MPTinyAppDemp_plugin */ = {
+			isa = PBXGroup;
+			children = (
+				E43E7C8621D1446400D9E31A /* MPTinyAppDemp_plugin.entitlements */,
+				E43E7C7F21D108B900D9E31A /* Sources */,
+				E43E7C8021D108C100D9E31A /* Resources */,
+				E43E7C8321D109ED00D9E31A /* Supporting Files */,
+			);
+			path = MPTinyAppDemp_plugin;
+			sourceTree = "<group>";
+		};
+		E43E7C7F21D108B900D9E31A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D6637C5022F9A7B700721E09 /* AppDelegate.h */,
+				D6637C5122F9A7B700721E09 /* AppDelegate.m */,
+				D6637C4022F9A7B700721E09 /* Tinyapp */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E43E7C8021D108C100D9E31A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E43E7C7221D1077E00D9E31A /* Assets.xcassets */,
+				E43E7C7421D1077E00D9E31A /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E43E7C8321D109ED00D9E31A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E43E7C7721D1077E00D9E31A /* Info.plist */,
+				E43E7C7821D1077E00D9E31A /* main.m */,
+				E43E7C8221D1095B00D9E31A /* MPTinyAppDemp_plugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD4215463CFB19CDEEFC7198 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F4C7DCA3DECF8E17A309023 /* APRemoteLogging.bundle */,
+				5DD4CD9D3A717C24C628394E /* APMobileNetwork.bundle */,
+				9B2AFB817044686A026919F1 /* TBScanSDK.bundle */,
+				786D9CA58386AC4DF7E8BB66 /* TBDecodeSDK.bundle */,
+				E8771C0FFFAE87F91673E4CE /* AMap.bundle */,
+				5803C1424CE207220BFA4EB5 /* APMobileFramework.bundle */,
+				1413479E3C82F07EB025DD5A /* NebulaSDK.bundle */,
+				3418B7330F3BFE766BA7930C /* NebulaAppManager.bundle */,
+				01D532990FC6225E096B2D70 /* NebulaKernel.bundle */,
+				0F54D8FE42C90F8D03101274 /* NebulaPoseidon.bundle */,
+				4A19B4D6C2C3A97CF8FC1E6D /* NebulaBiz.bundle */,
+				127EA22FB491F23AC46109D6 /* APCommonUI.bundle */,
+				FA75AF11728F9B4732E16B94 /* APBusinessSchemeHandlers.bundle */,
+				CA2F480F2C05CCC5A8B9522E /* APMultimedia.bundle */,
+				61980121E8F4A73EAB2E4CBC /* APMUtils.bundle */,
+				0C3AD5F64AD649B25543FD6A /* APMImageProcessing.bundle */,
+				55575815906827077F065030 /* Texel.bundle */,
+				81AD7A6D4590FC4144DFDE6E /* APMCDNImage.bundle */,
+				EC5A07208AF0C114447A0456 /* NebulaLogging.bundle */,
+				5E63A226F1316A86930302DA /* NebulaTinyapp.bundle */,
+				EEAF04B82D6C1614DDF0475D /* NebulaConfig.bundle */,
+				D4B521D214A57C1F2C6B057F /* TinyAppCommon.bundle */,
+				C15FB5553A89DA0C575ACB5F /* MPBadgeService.bundle */,
+				94B3F0A83C411F8D0CF10404 /* WeiboSDK.bundle */,
+				71015827174C05D6FFAA886E /* TencentOpenApi_IOS_Bundle.bundle */,
+				0404866696E85C3470940263 /* MPShareKit.bundle */,
+				13A9CBC672EB956DDC0D4330 /* MPInternalPresetApps.bundle */,
+				0FFC962F2E9F49F5FAB89CD6 /* MPNebulaAdapter.bundle */,
+				3BDF717E9ABB894C62A08EED /* MPInternalPlugins.bundle */,
+				2838667A53092D0FEB2A36F5 /* NebulaSDKPlugins.bundle */,
+				320EFBDF80F8FE4B95216445 /* BeeCityPicker.bundle */,
+				D7589EF87967561420998FA3 /* BeePhotoPicker.bundle */,
+				44BC26751AC17EB33403D48B /* BeePhotoBrowser.bundle */,
+				43956BA0B41D14433BD681BF /* BeeMediaPlayer.bundle */,
+				1610E566FAFF98CACFDC8F19 /* AOMPDevice.bundle */,
+				28C54B1885EB613EE385878D /* APMap.bundle */,
+				8BFA99A697034B5EBAE17BAA /* BEEAudioUtil.bundle */,
+				55AB8C758B296C272F3F1D48 /* BeePhoto.bundle */,
+				169D4C3CA37387A9CDDB885A /* BeeCapture.bundle */,
+				3B4448A619340E183C947758 /* BeeLocationPicker.bundle */,
+				88887BC2DE37EDE4D1C8B7C6 /* TinyappService.bundle */,
+				3B1C02D18046EC1BC81DFE59 /* FalconLooks.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E43E7C6521D1077E00D9E31A /* MPTinyAppDemp_plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E43E7C7C21D1077E00D9E31A /* Build configuration list for PBXNativeTarget "MPTinyAppDemp_plugin" */;
+			buildPhases = (
+				E43E7C6221D1077E00D9E31A /* Sources */,
+				E43E7C6321D1077E00D9E31A /* Frameworks */,
+				E43E7C6421D1077E00D9E31A /* Resources */,
+				D65F026A23BF3A0C00E4574A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPTinyAppDemp_plugin;
+			productName = MPTinyAppDemp_plugin;
+			productReference = E43E7C6621D1077E00D9E31A /* MPTinyAppDemp_plugin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E43E7C5E21D1077E00D9E31A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Alibaba;
+				TargetAttributes = {
+					E43E7C6521D1077E00D9E31A = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = NWNC46252S;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E43E7C6121D1077E00D9E31A /* Build configuration list for PBXProject "MPTinyAppDemp_plugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E43E7C5D21D1077E00D9E31A;
+			productRefGroup = E43E7C6721D1077E00D9E31A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E43E7C6521D1077E00D9E31A /* MPTinyAppDemp_plugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E43E7C6421D1077E00D9E31A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43E7C7621D1077E00D9E31A /* LaunchScreen.storyboard in Resources */,
+				E43E7C7321D1077E00D9E31A /* Assets.xcassets in Resources */,
+				D6637C5322F9A7B800721E09 /* MPCustomPluginsJsapis.bundle in Resources */,
+				D6637C5722F9A7B800721E09 /* public_key.pem in Resources */,
+				D6637C5422F9A7B800721E09 /* MPCustomPresetApps.bundle in Resources */,
+				D6A3010923F285A100C25911 /* MPH5Demo.bundle in Resources */,
+				52C0867498F72F78F80B090B /* meta.config in Resources */,
+				9892401ED920578FF1A1F767 /* yw_1222.jpg in Resources */,
+				A95807D735FCC86AA7BBBB4E /* APRemoteLogging.bundle in Resources */,
+				C683CCE5EA127F2F22045612 /* APMobileNetwork.bundle in Resources */,
+				6D738D9917A255F70F30F190 /* TBScanSDK.bundle in Resources */,
+				984C6141D35AF3FD7F19D710 /* TBDecodeSDK.bundle in Resources */,
+				8A4AA294E961F3F555EF5535 /* AMap.bundle in Resources */,
+				86D6F421024DCC2754408C17 /* APMobileFramework.bundle in Resources */,
+				335ACE6C51564F2DE709A299 /* NebulaSDK.bundle in Resources */,
+				F84CE7658B2B9C790F448D1D /* NebulaAppManager.bundle in Resources */,
+				B4386B4AC7837C32B8538238 /* NebulaKernel.bundle in Resources */,
+				6407C4B346438EF5485A98F3 /* NebulaPoseidon.bundle in Resources */,
+				3BFCC77ED18DD53971FB61BD /* NebulaBiz.bundle in Resources */,
+				E665E03CFC7B914AF0402309 /* APCommonUI.bundle in Resources */,
+				F153D2D70CDBE7ADF24CF658 /* APBusinessSchemeHandlers.bundle in Resources */,
+				94B42744253992A16301E888 /* APMultimedia.bundle in Resources */,
+				A2AC8D17F55968C2F4EAA36E /* APMUtils.bundle in Resources */,
+				CD1356A5436A931478119AF6 /* APMImageProcessing.bundle in Resources */,
+				44CEAC885ED649DA47FAE111 /* Texel.bundle in Resources */,
+				0012B669EC4110BE7FE18600 /* APMCDNImage.bundle in Resources */,
+				80E0C79E208BC8A71148AA93 /* NebulaLogging.bundle in Resources */,
+				BAAC8B920917ED6BEF9AED17 /* NebulaTinyapp.bundle in Resources */,
+				DE794865E809C88CF3D1CE8F /* NebulaConfig.bundle in Resources */,
+				4837E67907E5E71C51775592 /* TinyAppCommon.bundle in Resources */,
+				B91C81B74146C54C8B60BBA6 /* MPBadgeService.bundle in Resources */,
+				6785E3B379BC33F0308648D8 /* WeiboSDK.bundle in Resources */,
+				14C9CCC25EC82E535BDFFCC4 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				17200ADA994E669758EF3C69 /* MPShareKit.bundle in Resources */,
+				D92EDBA19C6EEC7A1F376A6F /* MPInternalPresetApps.bundle in Resources */,
+				4554053EB1266D56A7C2A736 /* MPNebulaAdapter.bundle in Resources */,
+				9F17E8796630E8122C2BCB99 /* MPInternalPlugins.bundle in Resources */,
+				ABB8F2CA123524B5F2D0D421 /* NebulaSDKPlugins.bundle in Resources */,
+				644C96C007807BF8D8B17DB8 /* BeeCityPicker.bundle in Resources */,
+				40E0DB3F2956B215361DC681 /* BeePhotoPicker.bundle in Resources */,
+				C893AC67F96DC33D40EC0CB2 /* BeePhotoBrowser.bundle in Resources */,
+				D9150552D89E0EAD3B655172 /* BeeMediaPlayer.bundle in Resources */,
+				2EDDB591EE0B4DA655E01689 /* AOMPDevice.bundle in Resources */,
+				2B44AC37FD8ED5097E10EC30 /* APMap.bundle in Resources */,
+				65921D32CCE90A645EAD4CE5 /* BEEAudioUtil.bundle in Resources */,
+				980DD6AE9F093A796C2F966B /* BeePhoto.bundle in Resources */,
+				AC3DB888C77B51BC9372EB24 /* BeeCapture.bundle in Resources */,
+				AA65EFC94D585FBB6B6F95D1 /* BeeLocationPicker.bundle in Resources */,
+				278E17A4C119D3DF0DAF563F /* TinyappService.bundle in Resources */,
+				AAE8A08184021CB16C126848 /* FalconLooks.bundle in Resources */,
+				5FB77B88409F2375617BF384 /* MicroAppEngine.plist in Resources */,
+				FDBB7EF7C03F64BF711AACD0 /* MobileRuntime.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E43E7C6221D1077E00D9E31A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6637C5222F9A7B800721E09 /* DemoHomeViewController.m in Sources */,
+				E43E7C7921D1077E00D9E31A /* main.m in Sources */,
+				D6637C5622F9A7B800721E09 /* MPDemoTinyScanHelper.m in Sources */,
+				D626548323F2891300FD60FE /* MPJsApi4ShareTinyAppMsg.m in Sources */,
+				D6637C5A22F9A7B800721E09 /* AppDelegate.m in Sources */,
+				D626548423F2891300FD60FE /* MPUtils.m in Sources */,
+				D6637C5922F9A7B800721E09 /* DemoPlugin4SettingClick.m in Sources */,
+				D6637C5522F9A7B800721E09 /* MPCustomPluginsJsapisDemo.m in Sources */,
+				D626548823F28E0D00FD60FE /* MPJsApiHandler4CustomAPITest.m in Sources */,
+				D6637C5822F9A7B800721E09 /* MPBootLoaderImpl.m in Sources */,
+				381E4A1369991EEA1FCA74D3 /* MPaaSInterface+MPTinyAppDemp_plugin.m in Sources */,
+				90EE9F988BF63417740BE361 /* DTFrameworkInterface+MPTinyAppDemp_plugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E43E7C7421D1077E00D9E31A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E43E7C7521D1077E00D9E31A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E43E7C7A21D1077E00D9E31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_MPTinyAppDemp_pluginS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E43E7C7B21D1077E00D9E31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_MPTinyAppDemp_pluginS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E43E7C7D21D1077E00D9E31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MPTinyAppDemp_plugin/MPTinyAppDemp_plugin.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NWNC46252S;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MPaaS/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPTinyAppDemp_plugin/MPTinyAppDemp_plugin-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MPTinyAppDemp_plugin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lz",
+					"-lsqlite3",
+					"-lxml2",
+					"-lc++",
+					"-lbz2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mpaas.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = comMpaasDemoProfile0324;
+				TARGETED_DEVICE_FAMILY = 1;
+				WARNING_CFLAGS = "-Wno-objc-protocol-method-implementation";
+			};
+			name = Debug;
+		};
+		E43E7C7E21D1077E00D9E31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MPTinyAppDemp_plugin/MPTinyAppDemp_plugin.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NWNC46252S;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MPaaS/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPTinyAppDemp_plugin/MPTinyAppDemp_plugin-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MPTinyAppDemp_plugin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lz",
+					"-lsqlite3",
+					"-lxml2",
+					"-lc++",
+					"-lbz2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mpaas.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = comMpaasDemoProfile0324;
+				TARGETED_DEVICE_FAMILY = 1;
+				WARNING_CFLAGS = "-Wno-objc-protocol-method-implementation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E43E7C6121D1077E00D9E31A /* Build configuration list for PBXProject "MPTinyAppDemp_plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43E7C7A21D1077E00D9E31A /* Debug */,
+				E43E7C7B21D1077E00D9E31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E43E7C7C21D1077E00D9E31A /* Build configuration list for PBXNativeTarget "MPTinyAppDemp_plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43E7C7D21D1077E00D9E31A /* Debug */,
+				E43E7C7E21D1077E00D9E31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E43E7C5E21D1077E00D9E31A /* Project object */;
+}

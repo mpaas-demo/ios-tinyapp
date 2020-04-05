@@ -1,0 +1,7 @@
+"BeeMediaPlayer:无法继续播放，请检查网络" = "Can't continue to play, please check the network";
+"BeeMediaPlayer:无法继续播放(%d)" = "Can't continue to play(%d)";
+"BeeMediaPlayer:点击重试" = "Retry";
+"BeeMediaPlayer:当前正在使用移动网络" = "Currently using mobile networks";
+"BeeMediaPlayer:当前设备不支持播放该视频" = "The Video isn't supported on the device";
+"BeeMediaPlayer:当前非Wi-Fi网络，播放将消耗%@手机流量" = "Currently non-Wi-Fi networks, playback will consume mobile traffic %@";
+"BeeMediaPlayer:继续播放" = "Play";

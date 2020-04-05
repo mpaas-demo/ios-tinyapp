@@ -1,0 +1,42 @@
+//Written by 多语言翻译管理系统 
+//Fri Jul 08 2016 12:05:36 GMT+0800 (CST)
+//如有问题请联系去疾
+"APMap:APMap.known" = "Ok";
+"APMap:APMap.locNotOpen" = "Location Off";
+"APMap:APMap.locNotOpenHint" = "You can let Alipay Wallet to access your location information in \Location Access\.\"\"\"\"";
+"APMap:APMap.location" = "Location";
+"APMap:APMap.myLocation" = "My Location";
+"APMap:APMap.navigateToLoc" = "Navigate to designated location.";
+"APMap:APMap.navigateToLocOf" = "Navigate to %@";
+"APMap:APMap.route" = "Route";
+"APMap:APMap.showRoute" = "Display/Show on Map";
+"APMap:APMapSendLocationView.accommodation" = "Hotel";
+"APMap:APMapSendLocationView.addressInfo" = "Location and Address";
+"APMap:APMapSendLocationView.businessResidential" = "Residence";
+"APMap:APMapSendLocationView.dining" = "Restaurant";
+"APMap:APMapSendLocationView.government" = "Government";
+"APMap:APMapSendLocationView.office" = "Office";
+"APMap:APMapSendLocationView.shopping" = "Shopping";
+"APMap:APMapSendLocationView.touristSites" = "Resort";
+"APMap:APMapService.requestFail" = "Request Failed";
+"APMap:APPOISearchViewController.mapSearch" = "Search";
+"APMap:APPOISearchViewController.noResultAround" = "No matched location";
+"APMap:APPOISearchViewController.park" = "Park";
+"APMap:APPathPlanningViewController.details" = "Details";
+"APMap:APPathPlanningViewController.routeError" = "Unable to acquire route";
+"APMap:APPathRouteDetailViewController.busStations" = "%1$@, from %2$@ to %3$@, total %4$d stops.";
+"APMap:APPathRouteTableViewCell.reachEnd&detail" = "You have arrived at %@";
+"APMap:APPathRouteTableViewCell.startMyLoc" = "My Location";
+"APMap:APRouteDetailTitleBannerView.busCost" = "ET. %1$0.0f mins. on foot.Total %2$d meters and %3$d stops.";
+"APMap:APRouteDetailTitleBannerView.busPlan" = "By Bus";
+"APMap:APRouteDetailTitleBannerView.drivePlan" = "By Car";
+"APMap:APRouteDetailTitleBannerView.taxiCost" = "%1$0.0f分钟/%2$d米/打车约%3$0.0f元";
+"APMap:APRouteDetailTitleBannerView.walkPlan" = "On Foot";
+"APMap:你可以开启WIFI以提高定位成功率；或尝试重新定位" = "Open Wi-Fi to improve location accuracy.";
+"APMap:取消" = "Cancel";
+"APMap:定位失败" = "Location Failed";
+"APMap:知道了" = "Ok";
+"APMap:重新定位" = "Relocation";
+"APMap:步行路程过长，建议采用其他出行方式" = "That's a long walk. We recommend other means of transport";
+"APMap:暂时不支持跨城市公交查询哦" = "Searches across more than one city transport system are not supported";
+"APMap:路线规划失败，请稍后再试" = "	Route planning failed, please try again later";

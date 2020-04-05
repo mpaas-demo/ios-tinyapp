@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "02493C48-56D0-4759-84D4-9184ED484523"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "083D80D0-7FD4-4830-9409-81A447B29A6C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MPTinyAppDemp_plugin/Sources/Tinyapp/DemoHomeViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
+            landmarkName = "-actionSheet:clickedButtonAtIndex:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4638B17C-C3FC-4F2F-96BB-9E8C7137346A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../TinyApp/nbinside/NBInsideAccountAdaptor/Sources/Base/NBIAuthService.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "-startTinyApp:uId:params:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4638B17C-C3FC-4F2F-96BB-9E8C7137346A - f765bb54b71f4d33"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NBIAuthService startTinyApp:uId:params:]"
+                  moduleName = "MPTinyAppDemp_plugin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yemingyu/Bakup/AlipayDevelop/mPaaSBuild/TinyApp/nbinside/NBInsideAccountAdaptor/Sources/Base/NBIAuthService.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "604">
+               </Location>
+               <Location
+                  uuid = "4638B17C-C3FC-4F2F-96BB-9E8C7137346A - 5c5fa42317c2acbd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__42-[NBIAuthService startTinyApp:uId:params:]_block_invoke"
+                  moduleName = "MPTinyAppDemp_plugin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yemingyu/Bakup/AlipayDevelop/mPaaSBuild/TinyApp/nbinside/NBInsideAccountAdaptor/Sources/Base/NBIAuthService.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

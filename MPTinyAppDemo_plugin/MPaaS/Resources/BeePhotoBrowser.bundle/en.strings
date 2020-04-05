@@ -1,0 +1,47 @@
+//Written by 多语言翻译管理系统 
+//Tue Jul 05 2016 20:59:00 GMT+0800 (CST)
+//如有问题请联系去疾
+"BeePhotoBrowser:yyyy年MM月" = "MM-yyyy";
+"BeePhotoBrowser:下载图片失败" = "Download Failed";
+"BeePhotoBrowser:举报" = "Report";
+"BeePhotoBrowser:你一次最多只能选择%d张照片" = "You can select max. %d images at a time.";
+"BeePhotoBrowser:使用" = "Use";
+"BeePhotoBrowser:保存到系统相册失败" = "Saving to Album Failed";
+"BeePhotoBrowser:保存图片" = "Save";
+"BeePhotoBrowser:保存视频" = "Save";
+"BeePhotoBrowser:删除" = "Delete";
+"BeePhotoBrowser:原图" = "Original Image";
+"BeePhotoBrowser:发送" = "Send";
+"BeePhotoBrowser:取消" = "Cancel";
+"BeePhotoBrowser:好" = "Ok";
+"BeePhotoBrowser:已保存到系统相册" = "Saved to system album";
+"BeePhotoBrowser:已完成" = "Completed";
+"BeePhotoBrowser:无法保存" = "Unable to save";
+"BeePhotoBrowser:查看原图(%@)" = "Full Image (%@)";
+"BeePhotoBrowser:正在加载..." = "Loading...";
+"BeePhotoBrowser:知道了" = "Got It";
+"BeePhotoBrowser:网络无法连接" = "Network Unavailable";
+"BeePhotoBrowser:图片及视频" = "Pictures and Videos";
+"BeePhotoBrowser:要删除这张照片吗？" = "Delete this photo?";
+"BeePhotoBrowser:识别图中二维码" = "Identifying QR Code in Image";
+"BeePhotoBrowser:识别图中%@" = "Identifying %@ in Image";
+"BeePhotoBrowser:请在iPhone的 “设置-隐私-照片” 选项中，允许%@访问你的照片。" = "Allow access your photos from device menu: \"Setting-Privacy-Photos\"";
+"BeePhotoBrowser:轻触退出" = "Tap to Quit";
+"BeePhotoBrowser:返回" = "Back";
+"BeePhotoBrowser:这个月" = "This Month";
+"BeePhotoBrowser:涂鸦"  =  "Doodle";
+"BeePhotoBrowser:编辑" = "Edit";
+
+"BeePhotoBrowser:编辑视频" = "Edit video";
+"BeePhotoBrowser:只能分享%@s内的视频，需进行编辑" = "only video with a duration less than %@s may be share. Edit and retry";
+
+"BeePhotoBrowser:GIF图尺寸过大,无法播放"  =  "GIF is too large to be played";
+"BeePhotoBrowser:GIF文件过大,无法播放"  =  "GIF file is too large to be played";
+"BeePhotoBrowser:该  GIF  图为静态图"  =  "The GIF is static";
+
+// iCloud功能
+"BeePhotoBrowser:iCloud无法同步" = "Can’t synchronize to iCloud";
+"BeePhotoBrowser:iCloud无法同步" = "Can’t synchronize to iCloud";
+"BeePhotoBrowser:iCloud同步中 %@%%" = "iCloud synchronizing %@%%";
+"BeePhotoBrowser:iCloud视频下载失败，请检查你的网络连接，稍后重试" = "Video download failed. Please check your network connection and try again";
+"BeePhotoBrowser:支付宝" = "Alipay";

@@ -1,0 +1,56 @@
+//Written by 多语言翻译管理系统 
+//Thu Jun 30 2016 04:10:27 GMT+0800 (CST)
+//如有问题请联系去疾
+"BeePhotoPicker:%@(%d张)" = "%1$@ (%2$d Photo(s))";
+"BeePhotoPicker:%ld 张照片" = "%ld Images";
+"BeePhotoPicker:%ld分%02ld秒" = "%1$ldminute%2$02ldsecond";
+"BeePhotoPicker:%ld时%02ld分%02ld秒" = "%1$ldhour%2$02ldminute%3$02ldsecond";
+"BeePhotoPicker:yyyy年MM月dd日 HH时mm分ss秒" = "yyyy-MM-dd HH:mm:ss";
+"BeePhotoPicker:一次只能发送一个视频" = "You can send 1 video at a time.";
+"BeePhotoPicker:从相册选择" = "Select from Album";
+"BeePhotoPicker:你一次最多只能选择%d张照片" = "You can select max. %d images at a time.";
+"BeePhotoPicker:发送" = "Send";
+"BeePhotoPicker:取消" = "Cancel";
+"BeePhotoPicker:好" = "Ok";
+"BeePhotoPicker:存储的照片" = "Photos in SD Card";
+"BeePhotoPicker:已选中" = "Selected";
+"BeePhotoPicker:您可以使用 iTunes 将照片和视频\n同步到 iPhone。" = "You can synchronize images and videos to iPhone by iTunes.";
+"BeePhotoPicker:所有照片" = "All Images";
+"BeePhotoPicker:拍摄" = "Camera";
+"BeePhotoPicker:拍摄时间：" = "Date:";
+"BeePhotoPicker:未选中" = "Unselected";
+"BeePhotoPicker:正在加载..." = "Loading...";
+"BeePhotoPicker:正在压缩" = "Compressing";
+"BeePhotoPicker:已压缩" = "Compressed";
+"BeePhotoPicker:正在处理..." = "Process...";
+"BeePhotoPicker:没有照片或视频。" = "No Photo or Video";
+"BeePhotoPicker:点击预览" = "Tap To Preview";
+"BeePhotoPicker:照片" = "Photo";
+"BeePhotoPicker:相机胶卷" = "Camera Roll";
+"BeePhotoPicker:知道了" = "Got It";
+"BeePhotoPicker:确定" = "Yes";
+"BeePhotoPicker:视频" = "Video";
+"BeePhotoPicker:视频信息" = "Video Info";
+"BeePhotoPicker:视频预览" = "Video Preview";
+"BeePhotoPicker:该设备不支持拍照" = "Camera Unavailable";
+"BeePhotoPicker:请在iOS“设置-隐私-相机”选项中，允许%@访问你的相机。" = "Please enable Camera Access for %@ in Privacy.";
+"BeePhotoPicker:请在iPhone的 “设置-隐私-照片” 选项中，允许%@访问你的手机相册" = "Please enable Photo Access for %@ in Privacy.";
+"BeePhotoPicker:允许相机访问" = "Enable Camera Access";
+"BeePhotoPicker:允许相册访问" = "enable Photo Access";
+"BeePhotoPicker:选择图片时不能选择视频" = "Please select Image only";
+"BeePhotoPicker:选择视频时不能选择照片" = "Please select Video only";
+"BeePhotoPicker:预览" = "Preview";
+"BeePhotoPicker:涂鸦" = "Doodle";
+"BeePhotoPicker:编辑" = "Edit";
+"BeePhotoPicker:原图" = "Original Image";
+
+"BeePhotoPicker:该GIF图过大,无法发送"  =  "The GIF file is too large to be sent out";
+"BeePhotoPicker:该GIF图尺寸过大,无法发送"  =  "The GIF is too large to be sent out";
+
+"BeePhotoPicker:正在下载iCloud照片"  =  "Downloading iCloud photos";
+"BeePhotoPicker:iCloud照片下载失败"  =  "iCloud photos downloading failed";
+"BeePhotoPicker:该图片尚未从iCloud下载，请在系统相册中下载到本地后重新尝试"  =  "The graphic has not been downloaded from iCloud yet. Please try again after downloading it to the local album.";
+"BeePhotoPicker:该视频尚未从iCloud下载，请在系统相册中下载到本地后重新尝试"  =  "The video has not been downloaded from iCloud yet. Please try again after downloading it to the local album.";
+"BeePhotoPicker:正在从iCloud同步照片" = "Synchronizing images from iCloud";
+"BeePhotoPicker:yy-MM-dd HH:mm:ss" = "yy-MM-dd HH:mm:ss";
+"BeePhotoPicker:支付宝" = "Alipay";

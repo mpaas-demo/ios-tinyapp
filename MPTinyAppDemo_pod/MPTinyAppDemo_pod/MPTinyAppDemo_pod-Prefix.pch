@@ -1,0 +1,17 @@
+//
+//  MPTinyAppDemo_pod-Prefix.pch
+//  MPTinyAppDemo_pod
+//
+//  Created by yangwei on 2019/03/27.
+
+// MPAAS HEADERS BEGIN
+// This part is maintained by MPaaS plugin automatically. 
+#ifdef __OBJC__
+
+#import "MPTinyAppDemo_pod-mPaaS-Headers.h"
+
+//#define ENABLE_ACCOUNT 1
+#define PortalScheme @"mpaasinsidedemo"
+
+#endif
+// MPAAS HEADERS END

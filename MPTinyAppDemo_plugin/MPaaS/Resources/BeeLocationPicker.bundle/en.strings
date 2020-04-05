@@ -1,0 +1,16 @@
+//Written by 多语言翻译管理系统 
+//Tue Jul 05 2016 20:58:52 GMT+0800 (CST)
+//如有问题请联系去疾
+"BeeLocationPicker:不显示位置" = "Do not display";
+"BeeLocationPicker:你在哪里？" = "Where are you?";
+"BeeLocationPicker:取消" = "Cancel";
+"BeeLocationPicker:定位失败" = "Locating failed";
+"BeeLocationPicker:定位未开启" = "Locating disabled";
+"BeeLocationPicker:所在位置" = "My location";
+"BeeLocationPicker:搜索你现在的位置" = "Search your current location";
+"BeeLocationPicker:搜索附近位置" = "Search";
+"BeeLocationPicker:无法获取你的位置信息。请到手机系统的[设置]->[隐私]->[定位服务]中打开定位服务，并允许支付宝使用定位服务" =  "Please enable Alipay to access your location information in \"Settings\" - \"Privacy\" - \"Location Access\"";
+"BeeLocationPicker:无结果" = "No result";
+"BeeLocationPicker:正在搜索附近的位置" = "Locating";
+"BeeLocationPicker:确定" = "OK";
+"BeeLocationPicker:没有找到你的位置" = "Fail to find your location";
