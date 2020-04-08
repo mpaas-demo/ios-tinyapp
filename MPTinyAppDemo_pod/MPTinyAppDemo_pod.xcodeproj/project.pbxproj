@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -344,7 +344,6 @@
 				4419FCC0224B2FE900949CB9 /* Sources */,
 				4419FCC1224B2FE900949CB9 /* Frameworks */,
 				4419FCC2224B2FE900949CB9 /* Resources */,
-				BECD463BF23175F48B639CE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -408,26 +407,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		BECD463BF23175F48B639CE6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MPTinyAppDemo_pod/Pods-MPTinyAppDemo_pod-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MPTinyAppDemo_pod/Pods-MPTinyAppDemo_pod-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MPTinyAppDemo_pod/Pods-MPTinyAppDemo_pod-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4419FCC0224B2FE900949CB9 /* Sources */ = {
@@ -588,8 +567,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NWNC46252S;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -622,19 +602,13 @@
 					"-framework",
 					"\"APBLESDK\"",
 					"-framework",
-					"\"APBusinessSchemeHandlers\"",
-					"-framework",
 					"\"APCommonUI\"",
 					"-framework",
 					"\"APConfig\"",
 					"-framework",
-					"\"APCrashReporter\"",
-					"-framework",
 					"\"APLog\"",
 					"-framework",
 					"\"APLongLinkService\"",
-					"-framework",
-					"\"APMAudioProcessing\"",
 					"-framework",
 					"\"APMBeauty\"",
 					"-framework",
@@ -666,8 +640,6 @@
 					"-framework",
 					"\"APSecurityUtility\"",
 					"-framework",
-					"\"APWebImage\"",
-					"-framework",
 					"\"APWebP\"",
 					"-framework",
 					"\"AVFoundation\"",
@@ -683,12 +655,6 @@
 					"\"AudioToolbox\"",
 					"-framework",
 					"\"AutoTracker\"",
-					"-framework",
-					"\"BEEAudioUtil\"",
-					"-framework",
-					"\"BeeCapture\"",
-					"-framework",
-					"\"BeeCityPicker\"",
 					"-framework",
 					"\"BeeLocationPicker\"",
 					"-framework",
@@ -726,8 +692,6 @@
 					"-framework",
 					"\"MBProgressHUD\"",
 					"-framework",
-					"\"MPBadgeService\"",
-					"-framework",
 					"\"MPDataCenter\"",
 					"-framework",
 					"\"MPMasAdapter\"",
@@ -739,8 +703,6 @@
 					"\"MPMssAdapter\"",
 					"-framework",
 					"\"MPNebulaAdapter\"",
-					"-framework",
-					"\"MPPerformance\"",
 					"-framework",
 					"\"MPShareKit\"",
 					"-framework",
@@ -802,8 +764,6 @@
 					"-framework",
 					"\"Texel\"",
 					"-framework",
-					"\"TianYan\"",
-					"-framework",
 					"\"TinyAppCommon\"",
 					"-framework",
 					"\"TinyappService\"",
@@ -826,6 +786,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mpaas.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -834,8 +795,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NWNC46252S;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -868,19 +830,13 @@
 					"-framework",
 					"\"APBLESDK\"",
 					"-framework",
-					"\"APBusinessSchemeHandlers\"",
-					"-framework",
 					"\"APCommonUI\"",
 					"-framework",
 					"\"APConfig\"",
 					"-framework",
-					"\"APCrashReporter\"",
-					"-framework",
 					"\"APLog\"",
 					"-framework",
 					"\"APLongLinkService\"",
-					"-framework",
-					"\"APMAudioProcessing\"",
 					"-framework",
 					"\"APMBeauty\"",
 					"-framework",
@@ -912,8 +868,6 @@
 					"-framework",
 					"\"APSecurityUtility\"",
 					"-framework",
-					"\"APWebImage\"",
-					"-framework",
 					"\"APWebP\"",
 					"-framework",
 					"\"AVFoundation\"",
@@ -929,12 +883,6 @@
 					"\"AudioToolbox\"",
 					"-framework",
 					"\"AutoTracker\"",
-					"-framework",
-					"\"BEEAudioUtil\"",
-					"-framework",
-					"\"BeeCapture\"",
-					"-framework",
-					"\"BeeCityPicker\"",
 					"-framework",
 					"\"BeeLocationPicker\"",
 					"-framework",
@@ -972,8 +920,6 @@
 					"-framework",
 					"\"MBProgressHUD\"",
 					"-framework",
-					"\"MPBadgeService\"",
-					"-framework",
 					"\"MPDataCenter\"",
 					"-framework",
 					"\"MPMasAdapter\"",
@@ -985,8 +931,6 @@
 					"\"MPMssAdapter\"",
 					"-framework",
 					"\"MPNebulaAdapter\"",
-					"-framework",
-					"\"MPPerformance\"",
 					"-framework",
 					"\"MPShareKit\"",
 					"-framework",
@@ -1048,8 +992,6 @@
 					"-framework",
 					"\"Texel\"",
 					"-framework",
-					"\"TianYan\"",
-					"-framework",
 					"\"TinyAppCommon\"",
 					"-framework",
 					"\"TinyappService\"",
@@ -1072,6 +1014,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mpaas.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
