@@ -365,10 +365,17 @@ NSArray *getDemoTinyAppList(){
                     // 参考 上方代码开发 iOS10 以下兼容代码，此处省略
                 }];
             }
-        } else {
-            NSLog(@"%@",result);
-        }
-        
+        } else if ([result[ANXProductConfigResultCodeKey] isEqualToString:@"account_open_auth_6000"]) {
+           NSLog(@"%@",result);
+           NBIAuthModel *model = [[NBIAuthModel alloc] init];
+           model.uid = nil;
+           model.token = nil;
+           model.extraInfo = nil;
+           model.errorMsg = result[ANXProductConfigResultMemoKey];
+           if(mode == NBIAuthModePlatformOnly) {
+               callback(model);
+           }
+       }
     }];
 }
 
