@@ -49,6 +49,8 @@
     [MPNebulaAdapterInterface initNebulaWithCustomPresetApplistPath:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"MPCustomPresetApps.bundle/NebulaApplist.plist"] ofType:nil] customPresetAppPackagePath:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"MPCustomPresetApps.bundle"] ofType:nil] customPluginsJsapisPath:[NSBundle.mainBundle.bundlePath stringByAppendingPathComponent:@"MPCustomPluginsJsapis.bundle/Poseidon-UserDefine-Extra-Config.plist"]];
     
     [APMapKeySetting getInstance].apiKey = @"c2cc1003517e9d056e3afdf7efdf8266";
+    [LBSmPaaSAdaptor sharedInstance].shouldAMapRegeoWhenLBSFailed = YES;
+    [AMapServices sharedServices].apiKey = @"c2cc1003517e9d056e3afdf7efdf8266";
 }
 
 - (void)application:(UIApplication *)application afterDidFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
