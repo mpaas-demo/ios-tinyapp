@@ -79,6 +79,7 @@
 		D626548323F2891300FD60FE /* MPJsApi4ShareTinyAppMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = D626548123F2891300FD60FE /* MPJsApi4ShareTinyAppMsg.m */; };
 		D626548423F2891300FD60FE /* MPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D626548223F2891300FD60FE /* MPUtils.m */; };
 		D626548823F28E0D00FD60FE /* MPJsApiHandler4CustomAPITest.m in Sources */ = {isa = PBXBuildFile; fileRef = D626548723F28E0D00FD60FE /* MPJsApiHandler4CustomAPITest.m */; };
+		D630A7FA247FD868003491D2 /* MPAccountDemoHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D630A7F8247FD868003491D2 /* MPAccountDemoHomeViewController.m */; };
 		D65F026823BF3A0C00E4574A /* FalconLooks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65F026723BF3A0C00E4574A /* FalconLooks.framework */; };
 		D65F026923BF3A0C00E4574A /* FalconLooks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D65F026723BF3A0C00E4574A /* FalconLooks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D6637C5222F9A7B800721E09 /* DemoHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6637C4122F9A7B700721E09 /* DemoHomeViewController.m */; };
@@ -204,6 +205,8 @@
 		D626548223F2891300FD60FE /* MPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPUtils.m; sourceTree = "<group>"; };
 		D626548623F28E0D00FD60FE /* MPJsApiHandler4CustomAPITest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPJsApiHandler4CustomAPITest.h; sourceTree = "<group>"; };
 		D626548723F28E0D00FD60FE /* MPJsApiHandler4CustomAPITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPJsApiHandler4CustomAPITest.m; sourceTree = "<group>"; };
+		D630A7F8247FD868003491D2 /* MPAccountDemoHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPAccountDemoHomeViewController.m; path = Tinyapp/MPAccountDemoHomeViewController.m; sourceTree = "<group>"; };
+		D630A7F9247FD868003491D2 /* MPAccountDemoHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPAccountDemoHomeViewController.h; path = Tinyapp/MPAccountDemoHomeViewController.h; sourceTree = "<group>"; };
 		D65F026723BF3A0C00E4574A /* FalconLooks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FalconLooks.framework; path = MPaaS/Frameworks/FalconLooks.framework; sourceTree = "<group>"; };
 		D6637C4122F9A7B700721E09 /* DemoHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoHomeViewController.m; sourceTree = "<group>"; };
 		D6637C4322F9A7B700721E09 /* MPCustomPluginsJsapis.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MPCustomPluginsJsapis.bundle; sourceTree = "<group>"; };
@@ -461,6 +464,8 @@
 		E43E7C7F21D108B900D9E31A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				D630A7F9247FD868003491D2 /* MPAccountDemoHomeViewController.h */,
+				D630A7F8247FD868003491D2 /* MPAccountDemoHomeViewController.m */,
 				D6637C5022F9A7B700721E09 /* AppDelegate.h */,
 				D6637C5122F9A7B700721E09 /* AppDelegate.m */,
 				D6637C4022F9A7B700721E09 /* Tinyapp */,
@@ -674,6 +679,7 @@
 				D626548423F2891300FD60FE /* MPUtils.m in Sources */,
 				D6637C5922F9A7B800721E09 /* DemoPlugin4SettingClick.m in Sources */,
 				D6637C5522F9A7B800721E09 /* MPCustomPluginsJsapisDemo.m in Sources */,
+				D630A7FA247FD868003491D2 /* MPAccountDemoHomeViewController.m in Sources */,
 				D626548823F28E0D00FD60FE /* MPJsApiHandler4CustomAPITest.m in Sources */,
 				D6637C5822F9A7B800721E09 /* MPBootLoaderImpl.m in Sources */,
 				381E4A1369991EEA1FCA74D3 /* MPaaSInterface+MPTinyAppDemp_plugin.m in Sources */,
