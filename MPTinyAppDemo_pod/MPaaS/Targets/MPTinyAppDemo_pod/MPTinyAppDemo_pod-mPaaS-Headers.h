@@ -12,8 +12,6 @@
 #import <NebulaSDK/NebulaSDK.h>
 #import <Nebula/Nebula.h>
 #import <NebulaPoseidon/NebulaPoseidon.h>
-#import <APCrashReporter/DFCrashReport.h>
-#import <TianYan/TianYan.h>
 #import <MPNebulaAdapter/MPNebulaAdapterInterface.h>
 #import <AMapFoundationKit/AMapFoundationKit.h>
 #import <APMobileLBS/APMobileLBS.h>

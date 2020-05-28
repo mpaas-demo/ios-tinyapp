@@ -1,9 +1,9 @@
 # mPaaS Pods Begin
-plugin "cocoapods-mPaaS", :only_frameworks => true
+plugin "cocoapods-mPaaS"
 source "https://code.aliyun.com/mpaas-public/podspecs.git"
 #use_pod_for_mPaaS!
-mPaaS_baseline '10.1.68-beta'  # 请将 x.x.x 替换成真实基线版本
-mPaaS_version_code 6   # This line is maintained by MPaaS plugin automatically. Please don't modify.
+mPaaS_baseline '10.1.60'  # 请将 x.x.x 替换成真实基线版本
+mPaaS_version_code 38   # This line is maintained by MPaaS plugin automatically. Please don't modify.
 # mPaaS Pods End
 
 platform :ios, '9.0'
@@ -14,6 +14,6 @@ target 'MPTinyAppDemo_pod' do
 
   mPaaS_pod "mPaaS_Share"
   
-#  mPaaS_pod "mPaaS_AliAccount"
+  mPaaS_pod "mPaaS_AliAccount"
 
 end
